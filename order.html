@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online - Fields Pizza</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+  <img src="images/fields-pizza-logo.png" alt="Fields Pizza Logo" width="200">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="order.html">Order</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Online Order Form</h2>
+    <form>
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="pizza">Select Pizza *</label>
+      <select id="pizza" name="pizza" required>
+        <option value="Margherita">Margherita</option>
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Veggie">Veggie</option>
+        <option value="Cheese">Cheese</option>
+        <option value="BBQ">BBQ Chicken</option>
+      </select>
+
+      <label for="quantity">Quantity *</label>
+      <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+      <input type="submit" value="Place Order">
+    </form>
+  </section>
+
+<footer>
+  <p>&copy; 2025 Fields Pizza</p>
+  <p>Phone: (123) 456-7890 | Email: info@fieldspizza.com | 123 Pizza Street, Flavor Town, USA</p>
+</footer>
+</body>
+</html>
