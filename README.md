@@ -78,3 +78,8 @@ Images include margherita, pepperoni, veggie, and BBQ pizzas, fresh ingredients,
 ---
 
 Thanks for visiting Fields Pizza!
+
+Commit Changes:
+1. Create README.md with project overview
+2. Update README with GitHub and live links
+3. Finalize and clean project for submission
